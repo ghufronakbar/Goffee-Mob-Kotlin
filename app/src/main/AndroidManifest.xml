@@ -20,6 +20,9 @@
         android:theme="@style/Theme.Goffee"
         tools:targetApi="31">
         <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterPage"
             android:exported="false" />
         <activity
@@ -55,6 +58,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC9gkfPHw8ENurnT4Yi2na5VQ3S7dzqnJc" />
     </application>
 
 </manifest>

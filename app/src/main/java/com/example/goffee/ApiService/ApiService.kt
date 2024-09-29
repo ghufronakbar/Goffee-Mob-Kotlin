@@ -119,7 +119,12 @@ interface ApiService {
         @Body request: checkoutRequest
     ): Call<checkoutResponse>
 
-    data class checkoutRequest(val address: String, val user_notes: String)
+    data class checkoutRequest(
+        val address: String?,
+        val user_notes: String,
+        val latitude: String?,
+        val longitude: String?
+    )
     data class checkoutResponse(
         val status: Int,
         val message: String,

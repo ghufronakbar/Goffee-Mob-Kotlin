@@ -58,6 +58,5 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.14.2")
     implementation("com.github.dhaval2404:imagepicker:2.1")
     implementation("androidx.cardview:cardview:1.0.0")
-
-
+    implementation("com.google.android.gms:play-services-maps:18.1.0")
 }
